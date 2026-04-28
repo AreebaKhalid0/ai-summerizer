@@ -21,7 +21,7 @@ if api_key:
         genai.configure(api_key=api_key)
 
         # Ye naya tareeqa hai model select karne ka
-        model = genai.GenerativeModel(model_name='gemini-1.5-flash')
+        model = genai.GenerativeModel(model_name='gemini-pro')
 
         user_text = st.text_area("Paste text here:", height=200)
 
