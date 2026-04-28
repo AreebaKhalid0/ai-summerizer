@@ -10,7 +10,7 @@ if api_key:
     try:
         genai.configure(api_key=api_key)
         # Hum gemini-pro use kar rahay hain jo sab se stable hai
-        model = genai.GenerativeModel('gemini-pro')
+        model = genai.GenerativeModel('gemini-1.5-flash')
         
         user_text = st.text_area("Paste text here:", height=200)
 
